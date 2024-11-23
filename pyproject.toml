@@ -1,0 +1,19 @@
+[project]
+name = "orekit-jpype-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartopy>=0.24.1",
+    "jupyter-console>=6.6.3",
+    "jupyterlab>=4.2.5",
+    "matplotlib>=3.9.2",
+    "orekit-jpype>=12.2.0.0",
+    "orekitdata",
+    "pandas>=2.2.3",
+    "plotly>=5.24.1",
+]
+
+[tool.uv.sources]
+orekitdata = { git = "https://gitlab.orekit.org/orekit/orekit-data.git" }
