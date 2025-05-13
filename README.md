@@ -9,7 +9,7 @@ This repository uses the uv package manager, which installs all dependencies inc
 
 ## Running
 
-install uv from http://
+install uv from [http://](https://docs.astral.sh/uv/getting-started/installation/)
 
 then 
 
